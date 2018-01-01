@@ -61,7 +61,7 @@ public class MainActivity extends Activity implements View.OnClickListener, View
         drawView.onPause();
         super.onPause();
     }
-
+    //TODO: remove keras model and associated code????
     private void loadModel() {
 
         new Thread(new Runnable() {
